@@ -61,7 +61,15 @@ const EventPlanner = () => {
                     <p className="author">- John Smith</p>
                 </div>
             </section>
-            <section className="contact"></section>
+            <section className="contact">
+                <h2>Contáctanos</h2>
+                <form>
+                    <input type="text" placeholder="Nombre"></input>
+                    <input type="email" placeholder="Correo Electrónico"></input>
+                    <textarea placeholder="Mensaje"></textarea>
+                    <button className="submit-button">Enviar</button>
+                </form>
+            </section>
         </div>
     );
 };
