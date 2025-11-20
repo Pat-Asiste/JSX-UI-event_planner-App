@@ -50,7 +50,17 @@ const EventPlanner = () => {
                     <li>Recordatorios y notificaciones</li>
                 </ul>
             </section>
-            <section className="testimonials"></section>
+            <section className="testimonials">
+                <h2>Testimonios</h2>
+                <div className="testimonial">
+                    <p>"Event Planner hizo que organizar mi boda sea pan comido. ¡La recomiendo ampliamente!"</p>
+                    <p className="author">- Emilia Johnson</p>
+                </div>
+                <div className="testimonial">
+                    <p>"¡Lo he usado para todos mis eventos corporativos. Me ha ahorrado mucho tiempo y esfuerzo!"</p>
+                    <p className="author">- John Smith</p>
+                </div>
+            </section>
             <section className="contact"></section>
         </div>
     );
