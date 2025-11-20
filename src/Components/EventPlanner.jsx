@@ -1,5 +1,6 @@
 import React from 'react';
 import './EventPlanner.css'; // Import CSS file for styling
+import './Footer.jsx';
 
 const EventPlanner = () => {
     return (
