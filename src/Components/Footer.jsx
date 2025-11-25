@@ -1,11 +1,12 @@
 //Componente Funcional
 
 import React from 'react';
-import './Footer.css';
 
 const Footer = () => {
     return (
-        <footer></footer>
+        <footer>
+            <p>&copy; Event Planner. Todos los derechos no reservados.</p>
+        </footer>
     );
 };
 
